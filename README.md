@@ -1,5 +1,5 @@
 # FilmX
-Movie Explorer Web App using OMDb API
+Movie Explorer Web App using TMDb API
 # 🎬 FilmX – Movie Explorer Web App
 
 FilmX is a web-based movie explorer application that allows users to search and discover movies using a public API. The application focuses on implementing JavaScript concepts such as API integration, array methods, and interactive UI design.
@@ -18,8 +18,8 @@ The goal of this project is to build a functional web application that demonstra
 
 ## 🌐 API Used
 
-OMDb API
-https://www.omdbapi.com/
+API
+https://api.tvmaze.com/search/shows?q=batman
 
 ---
 
@@ -59,7 +59,7 @@ filmx/
 1. Clone the repository
 2. Open the project folder
 3. Open `index.html` in your browser
-4. Add your OMDb API key in `script.js`
+4. Add your TMDb API key in `script.js`
 
 ---
 
