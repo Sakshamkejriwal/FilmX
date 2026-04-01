@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+/* HEADING */
+h1 {
+  margin: 20px;
+  font-size: 28px;
+}
+
+/* GRID */
+#shows-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* TITLE */
+.card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* LOADER */
+#loader {
+  margin: 20px;
+  font-size: 18px;
+}
