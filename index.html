@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎬 FilmX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎬 FilmX</h1>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search shows...      ">
+
+      <select id="genre">
+        <option value="all">All Genres</option>
+        <option value="Drama">Drama</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Action">Action</option>
+        <option value="Thriller">Thriller</option>
+      </select>
+
+      <select id="sort">
+        <option value="">Sort By</option>
+        <option value="rating">Rating</option>
+        <option value="name">Name</option>
+      </select>
+
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <div id="loader">Loading shows...</div>
+  <div id="shows-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>

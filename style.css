@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000308;
+  color: rgb(182, 249, 245);
+  margin: 0;
+  transition: 0.3s;
+}
+
+body.light {
+  background: #e8f1f8dd;
+  color: #000e60;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+input, select {
+  padding: 30px;
+  border-radius: 25px;
+  border: 20px;
+  font-size: 15px;
+  min-width: 210px;
+  background: #d7e6f6;
+  color: rgb(0, 1, 75);
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* CARD */
+#shows-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+
+.card {
+  background: #0012793b;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+body.light .card {
+  background: #b1ccec58;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 240px;
+}
+
+.card-content{
+  font-size: 20px;
+}
