@@ -74,6 +74,7 @@ function updateUI() {
   } else if (sortType === "name") {
     result.sort((a, b) => a.name.localeCompare(b.name));
   }
+
   displayShows(result.slice(0, 24));
 }
 

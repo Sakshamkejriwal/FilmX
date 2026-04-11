@@ -6,16 +6,19 @@ body {
   transition: 0.3s;
 }
 
+/* LIGHT MODE */
 body.light {
   background: #e8f1f8dd;
   color: #000e60;
 }
 
+/* HEADER */
 header {
   text-align: center;
   font-size: 30px;
 }
 
+/* CONTROLS */
 .controls {
   display: flex;
   justify-content: center;
@@ -35,10 +38,6 @@ input, select {
   transition: 0.2s;
 }
 
-button:hover {
-  transform: scale(1.05);
-}
-
 input, select, button {
   padding: 8px;
   margin: 5px;
@@ -46,7 +45,11 @@ input, select, button {
   border: none;
 }
 
-/* CARD */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* GRID */
 #shows-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -54,6 +57,7 @@ input, select, button {
   padding: 20px;
 }
 
+/* CARD */
 .card {
   background: #0012793b;
   border-radius: 10px;
@@ -75,6 +79,12 @@ body.light .card {
   height: 240px;
 }
 
-.card-content{
+.card-content {
   font-size: 20px;
+}
+
+/* LOADER */
+#loader {
+  text-align: center;
+  margin: 20px;
 }
